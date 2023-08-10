@@ -1,0 +1,9 @@
+prefix=/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.0.10
+Requires: libssl libcrypto
