@@ -1,8 +1,8 @@
-prefix=/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv
+prefix=/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${libdir}
-includedir=/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/include
+includedir=/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces

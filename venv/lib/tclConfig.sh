@@ -16,10 +16,10 @@ TCL_MINOR_VERSION='6'
 TCL_PATCH_LEVEL='.12'
 
 # C compiler to use for compilation.
-TCL_CC='x86_64-apple-darwin13.4.0-clang'
+TCL_CC='arm64-apple-darwin20.0.0-clang'
 
 # -D flags for use with the C compiler.
-TCL_DEFS='-DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DNO_VALUES_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DMAC_OSX_TCL=1 -DHAVE_COREFOUNDATION=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".dylib\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_MTSAFE_GETHOSTBYNAME=1 -DHAVE_MTSAFE_GETHOSTBYADDR=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_CHFLAGS=1 -DHAVE_MKSTEMPS=1 -DHAVE_GETATTRLIST=1 -DHAVE_COPYFILE_H=1 -DHAVE_COPYFILE=1 -DHAVE_LIBKERN_OSATOMIC_H=1 -DHAVE_OSSPINLOCKLOCK=1 -DUSE_VFORK=1 -DTCL_DEFAULT_ENCODING=\"utf-8\" -DTCL_LOAD_FROM_MEMORY=1 -DTCL_WIDE_CLICKS=1 -DHAVE_AVAILABILITYMACROS_H=1 -DHAVE_WEAK_IMPORT=1 -D_DARWIN_C_SOURCE=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_FILIO_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1 '
+TCL_DEFS='-DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DNO_VALUES_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DMAC_OSX_TCL=1 -DHAVE_COREFOUNDATION=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".dylib\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_MTSAFE_GETHOSTBYNAME=1 -DHAVE_MTSAFE_GETHOSTBYADDR=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_CHFLAGS=1 -DHAVE_MKSTEMPS=1 -DHAVE_GETATTRLIST=1 -DHAVE_COPYFILE_H=1 -DHAVE_COPYFILE=1 -DHAVE_LIBKERN_OSATOMIC_H=1 -DHAVE_OSSPINLOCKLOCK=1 -DUSE_VFORK=1 -DTCL_DEFAULT_ENCODING=\"utf-8\" -DTCL_LOAD_FROM_MEMORY=1 -DTCL_WIDE_CLICKS=1 -DHAVE_AVAILABILITYMACROS_H=1 -DHAVE_WEAK_IMPORT=1 -D_DARWIN_C_SOURCE=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_FILIO_H=1 -DTCL_UNLOAD_DLLS=1 '
 
 # TCL_DBGX used to be used to distinguish debug vs. non-debug builds.
 # This was a righteous pain so the core doesn't do that any more.
@@ -44,11 +44,11 @@ TCL_LIBS=' -lz  -lpthread -framework CoreFoundation '
 
 # Top-level directory in which Tcl's platform-independent files are
 # installed.
-TCL_PREFIX='/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv'
+TCL_PREFIX='/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv'
 
 # Top-level directory in which Tcl's platform-specific files (e.g.
 # executables) are installed.
-TCL_EXEC_PREFIX='/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv'
+TCL_EXEC_PREFIX='/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv'
 
 # Flags to pass to cc when compiling the components of a shared library:
 TCL_SHLIB_CFLAGS='-fno-common'
@@ -57,7 +57,7 @@ TCL_SHLIB_CFLAGS='-fno-common'
 TCL_CFLAGS_WARNING='-Wall -Wpointer-arith'
 
 # Extra flags to pass to cc:
-TCL_EXTRA_CFLAGS='-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/include -fdebug-prefix-map=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work=/usr/local/src/conda/tk-8.6.12 -fdebug-prefix-map=/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv=/usr/local/src/conda-prefix -pipe  -arch x86_64 -D_FORTIFY_SOURCE=2 -isystem /Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/include -mmacosx-version-min=10.9 '
+TCL_EXTRA_CFLAGS='-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work=/usr/local/src/conda/tk-8.6.12 -fdebug-prefix-map=/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv=/usr/local/src/conda-prefix -pipe  -D_FORTIFY_SOURCE=2 -isystem /Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/include -mmacosx-version-min=11.1 '
 
 # Base command to use for combining object files into a shared library:
 TCL_SHLIB_LD='${CC} -dynamiclib ${CFLAGS} ${LDFLAGS} -Wl,-single_module'
@@ -79,7 +79,7 @@ TCL_DL_LIBS=''
 
 # Flags to pass to the compiler when linking object files into
 # an executable tclsh or tcltest binary.
-TCL_LD_FLAGS='-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib -L/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib -headerpad_max_install_names -Wl,-search_paths_first '
+TCL_LD_FLAGS='-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib -L/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib -headerpad_max_install_names -Wl,-search_paths_first '
 
 # Flags to pass to cc/ld, such as "-R /usr/local/tcl/lib", that tell the
 # run-time dynamic linker where to look for shared libraries such as
@@ -93,22 +93,22 @@ TCL_LD_SEARCH_FLAGS=''
 TCL_COMPAT_OBJS=''
 
 # Name of the ranlib program to use.
-TCL_RANLIB='x86_64-apple-darwin13.4.0-ranlib'
+TCL_RANLIB='arm64-apple-darwin20.0.0-ranlib'
 
 # -l flag to pass to the linker to pick up the Tcl library
 TCL_LIB_FLAG='-ltcl8.6'
 
 # String to pass to linker to pick up the Tcl library from its
 # build directory.
-TCL_BUILD_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix -ltcl8.6'
+TCL_BUILD_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix -ltcl8.6'
 
 # String to pass to linker to pick up the Tcl library from its
 # installed directory.
-TCL_LIB_SPEC='-L/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib -ltcl8.6'
+TCL_LIB_SPEC='-L/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib -ltcl8.6'
 
 # String to pass to the compiler so that an extension can
 # find installed Tcl headers.
-TCL_INCLUDE_SPEC='-I/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/include'
+TCL_INCLUDE_SPEC='-I/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/include'
 
 # Indicates whether a version numbers should be used in -l switches
 # ("ok" means it's safe to use switches like -ltcl7.5;  "nodots" means
@@ -135,12 +135,12 @@ TCL_UNSHARED_LIB_SUFFIX='${VERSION}.a'
 # different place than the directory containing the source files, this
 # points to the location of the sources, not the location where Tcl was
 # compiled.
-TCL_SRC_DIR='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12'
+TCL_SRC_DIR='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12'
 
 # List of standard directories in which to look for packages during
 # "package require" commands.  Contains the "prefix" directory plus also
 # the "exec_prefix" directory, if it is different.
-TCL_PACKAGE_PATH='{/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib} '
+TCL_PACKAGE_PATH='{/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib} '
 
 # Tcl supports stub.
 TCL_SUPPORTS_STUBS=1
@@ -153,17 +153,17 @@ TCL_STUB_LIB_FLAG='-ltclstub8.6'
 
 # String to pass to linker to pick up the Tcl stub library from its
 # build directory.
-TCL_BUILD_STUB_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix -ltclstub8.6'
+TCL_BUILD_STUB_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix -ltclstub8.6'
 
 # String to pass to linker to pick up the Tcl stub library from its
 # installed directory.
-TCL_STUB_LIB_SPEC='-L/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib -ltclstub8.6'
+TCL_STUB_LIB_SPEC='-L/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib -ltclstub8.6'
 
 # Path to the Tcl stub library in the build directory.
-TCL_BUILD_STUB_LIB_PATH='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix/libtclstub8.6.a'
+TCL_BUILD_STUB_LIB_PATH='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/libtclstub8.6.a'
 
 # Path to the Tcl stub library in the install directory.
-TCL_STUB_LIB_PATH='/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib/libtclstub8.6.a'
+TCL_STUB_LIB_PATH='/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib/libtclstub8.6.a'
 
 # Flag, 1: we built Tcl with threads enabled, 0 we didn't
 TCL_THREADS=1

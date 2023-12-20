@@ -21,13 +21,13 @@ ITCL_LIB_FILE=libitcl4.2.2.dylib
 
 # String to pass to linker to pick up the Itcl library from its
 # build directory.
-itcl_BUILD_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix/pkgs/itcl4.2.2 -litcl4.2.2'
-ITCL_BUILD_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix/pkgs/itcl4.2.2 -litcl4.2.2'
+itcl_BUILD_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/pkgs/itcl4.2.2 -litcl4.2.2'
+ITCL_BUILD_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/pkgs/itcl4.2.2 -litcl4.2.2'
 
 # String to pass to linker to pick up the Itcl library from its
 # installed directory.
-itcl_LIB_SPEC='-L/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2 -litcl4.2.2'
-ITCL_LIB_SPEC='-L/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2 -litcl4.2.2'
+itcl_LIB_SPEC='-L/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2 -litcl4.2.2'
+ITCL_LIB_SPEC='-L/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2 -litcl4.2.2'
 
 # The name of the Itcl stub library (a .a file):
 itcl_STUB_LIB_FILE=libitclstub4.2.2.a
@@ -35,33 +35,33 @@ ITCL_STUB_LIB_FILE=libitclstub4.2.2.a
 
 # String to pass to linker to pick up the Itcl stub library from its
 # build directory.
-itcl_BUILD_STUB_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix/pkgs/itcl4.2.2 -litclstub4.2.2'
-ITCL_BUILD_STUB_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix/pkgs/itcl4.2.2 -litclstub4.2.2'
+itcl_BUILD_STUB_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/pkgs/itcl4.2.2 -litclstub4.2.2'
+ITCL_BUILD_STUB_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/pkgs/itcl4.2.2 -litclstub4.2.2'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_SPEC='-L/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2 -litclstub4.2.2'
-ITCL_STUB_LIB_SPEC='-L/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2 -litclstub4.2.2'
+itcl_STUB_LIB_SPEC='-L/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2 -litclstub4.2.2'
+ITCL_STUB_LIB_SPEC='-L/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2 -litclstub4.2.2'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # build directory.
-itcl_BUILD_STUB_LIB_PATH='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix/pkgs/itcl4.2.2/libitclstub4.2.2.a'
-ITCL_BUILD_STUB_LIB_PATH='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/unix/pkgs/itcl4.2.2/libitclstub4.2.2.a'
+itcl_BUILD_STUB_LIB_PATH='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/pkgs/itcl4.2.2/libitclstub4.2.2.a'
+ITCL_BUILD_STUB_LIB_PATH='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/pkgs/itcl4.2.2/libitclstub4.2.2.a'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_PATH='/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2/libitclstub4.2.2.a'
-ITCL_STUB_LIB_PATH='/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2/libitclstub4.2.2.a'
+itcl_STUB_LIB_PATH='/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2/libitclstub4.2.2.a'
+ITCL_STUB_LIB_PATH='/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib/itcl4.2.2/libitclstub4.2.2.a'
 
 # Location of the top-level source directories from which [incr Tcl]
 # was built.  This is the directory that contains generic, unix, etc.
 # If [incr Tcl] was compiled in a different place than the directory
 # containing the source files, this points to the location of the sources,
 # not the location where [incr Tcl] was compiled.
-itcl_SRC_DIR='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/pkgs/itcl4.2.2'
-ITCL_SRC_DIR='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/pkgs/itcl4.2.2'
+itcl_SRC_DIR='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/pkgs/itcl4.2.2'
+ITCL_SRC_DIR='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/pkgs/itcl4.2.2'
 
 # String to pass to the compiler so that an extension can
 # find installed Itcl headers.
-itcl_INCLUDE_SPEC='-I/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/pkgs/itcl4.2.2/generic'
-ITCL_INCLUDE_SPEC='-I/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tcl8.6.12/pkgs/itcl4.2.2/generic'
+itcl_INCLUDE_SPEC='-I/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/pkgs/itcl4.2.2/generic'
+ITCL_INCLUDE_SPEC='-I/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/pkgs/itcl4.2.2/generic'

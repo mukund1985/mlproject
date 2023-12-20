@@ -1,8 +1,8 @@
 # tk pkg-config source file
 
-prefix=/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv
-exec_prefix=/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv
-libdir=/Users/mukundpandey/Library/Mobile Documents/com~apple~CloudDocs/Study/End_To_End_Implementation/Project/mlproject/venv/lib
+prefix=/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv
+exec_prefix=/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv
+libdir=/Users/mukundpandey/git_repo/End_To_End_Implementation/Project/mlproject/venv/lib
 includedir=${prefix}/include
 
 Name: The Tk Toolkit
