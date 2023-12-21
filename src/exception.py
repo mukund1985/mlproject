@@ -1,5 +1,5 @@
 import sys
-from logger import logger  # Import the configured logger from the logger module
+from src.logger import logging  # Import the configured logger from the logger module
 
 def error_message_detail(error, error_detail: sys):
     # Extracting the traceback object from the error detail.
